@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="hidden sm:flex h-96 bg-[#c7acd9] w-[200%] -left-1/2 -top-24 rounded-[50%] absolute z-10"
+    ></div>
+    <div
+      class="flex flex-col items-center justify-center sm:px-6 sm:py-8 mx-auto md:h-screen lg:py-0 z-50"
+    >
+      <div
+        class="bg-local h-60 w-full bg-cover sm:hidden"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1555448248-2571daf6344b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        "
+      >
+        <div class="absolute top-0 left-0 pt-12 p-5 text-white">
+          <h1 class="font-bold text-center text-2xl pb-5">Sample heding</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit consequatur beatae quas nam sequi vero dolore
+            accusantium labore dicta aut? Doloribus iste fugit deserunt
+            dignissimos repudiandae quo eveniet eos error.
+          </p>
+        </div>
+      </div>
+      <div
+        class="sm:grid grid-cols-2 sm:gap-5 sm:max-w-2xl mx-auto w-full bg-white drop-shadow-2xl z-50"
+      >
+        <div class="relative hidden sm:flex">
+          <img
+            class="sm:flex h-80 sm:h-full w-full"
+            src="https://images.unsplash.com/photo-1555448248-2571daf6344b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <div class="absolute top-0 left-0 pt-12 p-5 text-white">
+            <h1 class="font-bold text-center text-2xl pb-5">Sample heding</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit consequatur beatae quas nam sequi vero dolore
+              accusantium labore dicta aut? Doloribus iste fugit deserunt
+              dignissimos repudiandae quo eveniet eos error.
+            </p>
+          </div>
+        </div>
+        <div class="w-full max-w-sm mx-auto py-5 px-10 sm:px-2">
+          <h1
+            class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white pb-5"
+          >
+            Create an Account
+          </h1>
+          <form class="space-y-4 md:space-y-6" action="#">
+            <div>
+              <label
+                for="email"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >Enter Your email</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="bg-gray-50 border border-gray-400 text-gray-900 sm:text-sm rounded-sm block w-full px-2 py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                placeholder="name@company.com"
+                required=""
+              />
+            </div>
+            <div>
+              <p class="font-semibold pb-3">Date of birth (optionl)</p>
+              <div class="flex flex-row gap-5 w-full">
+                <div class="w-full">
+                  <label
+                    for="countries_disabled"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    >Date</label
+                  >
+                  <select
+                    class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-sm block w-full px-2 py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                  >
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="w-full">
+                  <label
+                    for="countries_disabled"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    >Month</label
+                  >
+                  <select
+                    class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-sm block w-full px-2 py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                  >
+                    <option selected value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                  </select>
+                </div>
+                <div class="w-full">
+                  <label
+                    for="countries_disabled"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    >Year</label
+                  >
+                  <select
+                    class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-sm block w-full px-2 py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                  >
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option selected value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label
+                for="password"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >choose a strong Password</label
+              >
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="••••••••"
+                class="bg-gray-50 border border-gray-400 text-gray-900 sm:text-sm rounded-sm block w-full px-2 py-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                required=""
+              />
+            </div>
+            <div>
+              <p class="font-semibold pb-3">Are you n agency or individul ?</p>
+              <div class="flex items-start gap-5">
+                <div class="flex items-center mb-4 w-full">
+                  <input
+                    id="default-radio-1"
+                    type="radio"
+                    value="individul"
+                    name="default-radio"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600"
+                  />
+                  <label
+                    for="default-radio-1"
+                    class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    >individul</label
+                  >
+                </div>
+                <div class="flex items-center w-full">
+                  <input
+                    checked
+                    id="default-radio-2"
+                    type="radio"
+                    value="agency"
+                    name="default-radio"
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600"
+                  />
+                  <label
+                    for="default-radio-2"
+                    class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    >agency</label
+                  >
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-sm text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              >
+                submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
